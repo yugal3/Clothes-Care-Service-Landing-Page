@@ -228,54 +228,55 @@ body {
 
 /* ============ bar ================= */
 
-.bar{
-    font-family: "Inter", sans-serif;
-    position: absolute;
-    bottom: 0%;
-    left: 0%;
-    padding: 1rem 3rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    background-color: #1d2a2e;
+.bar {
+  font-family: "Inter", sans-serif;
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  padding: 1rem 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #1d2a2e;
 }
 
-.bar .img-container{
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    gap: 0.7rem;
+.bar .img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7rem;
 }
 
-.bar .img-container h5{
-    font-size: 1.6rem;
-    font-weight: 500;
+.bar .img-container h5 {
+  font-size: 1.6rem;
+  font-weight: 500;
 }
 
 .bar .img-container img {
-    height:2rem;
-    border-radius:10px;
+  height: 2rem;
+  border-radius: 10px;
 }
 
-
-/* .overlap-img1{
-    position: ;
-} */
-
-
-.bar .reservebtn h4{
-    text-transform: capitalize;
-    font-size: 0.8rem;
-    font-weight: 500;
-    margin-right: 0.7rem;
+.overlap-img1 {
+  margin-left: -1rem;
+}
+.overlap-img2 {
+  margin-left: -1rem;
 }
 
-.bar .reservebtn{
-    padding: 0.7rem 2rem;
-    background-color: #fff;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.bar .reservebtn h4 {
+  text-transform: capitalize;
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-right: 0.7rem;
+}
+
+.bar .reservebtn {
+  padding: 0.7rem 2rem;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
